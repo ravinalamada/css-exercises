@@ -1,8 +1,148 @@
-* {
+
 /*
   Property name
   Property description
 */
   /* Property example with a value */
 
-}
+  /*
+    Font-family:
+    It specifies a prioritized list of one or more font family names and/or generic family names for the selected element.*/
+  .font-family {
+    font-family: monospace;
+  }
+
+  /*
+    Font-size:
+    It sets the size of the font, which relies on what value you use.
+  */
+  .font-size {
+    font-size: larger;
+  }
+  /* Font-weight:
+    It sets the weight of the font, and its result depends on what value you put there
+  */
+
+  .font-weight {
+    font-weight: bolder;
+  }
+
+  /*
+   Font-style:
+    It styles the font in different ways such as italic, normal, or oblique, it is up to the value which you use.
+  */
+  .font-style {
+    font-style: italic;
+  }
+
+  /* Line-height:
+    It sets the height of a line box. It's commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.
+  */
+  .pink {
+    line-height: 2px;
+    border: pink
+  }
+
+  /*Font-variant:
+    is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian.
+  */
+  p.small {
+    font-variant: small-caps;
+  }
+
+  /*
+    Font-stretch:
+    It selects a normal, condensed, or expanded face from a font.
+    */
+    .font-stretch {
+      font-stretch: normal;
+    }
+
+  /* Font-size-adjust:
+    It sets how the font size should be chosen based on the height of lowercase rather than capital letters.
+  */
+  .inherit {
+    font-size-adjust: inherit;
+    font-family: inherit;
+  }
+  /*Font-synthesis:
+  It controls which missing typefaces, bold or italic, may be synthesized by the browser.
+  */
+  .syn {
+    font-synthesis: style ;
+  }
+  /*Letter-spacing:
+    It allows the user to set space in between of a letter.
+  */
+  .letter-spacing {
+    letter-spacing: 1px;
+  }
+
+  /*word-spacing:
+    It allows a user to control space in between of each word.
+  */
+  .word-spacing {
+    word-spacing: 36rem;
+  }
+  /*Text-align:
+    It sets the horizontal alignment of a block element or table-cell box.
+  */
+  .text-align {
+    text-align: center;
+  }
+  /*text-decoration:
+    It sets the appearance of decorative lines on text. It is a shorthand for text-decoration-line, text-decoration-color, text-decoration-style, and the newer text-decoration-thickness property.
+  */
+  .text-decoration {
+    text-decoration: mediumpurple;
+  }
+  /*Text-decoration-line:
+    It decorates line of the text in which has written, and the text-decoration-line depends on what value is used.
+  */
+  .text-decoration-line {
+    text-decoration-line: line-through;
+    text-decoration-color: magenta;
+  }
+  /*Text-decoration-style:
+    It sets the style of the lines specified by text-decoration-line. The style applies to all lines that are set with text-decoration-line.
+  */
+  text-decoration-style {
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+  }
+
+  /*Text-decoration-color:
+    It decorates text which a user writes, and the text-decoration depends on what value is used.
+  */
+  .text-decoration-color {
+    text-decoration-line: underline;
+    text-decoration-color: lightpink;
+  }
+  /*Text-indent:
+    It sets the length of empty space (indentation) that is put before lines of text in a block.
+  */
+  .text-indent {
+    text-indent: 10rem;
+  }
+  /*Text-transform:
+    It is used to make text occured in all-uppercase or all-lowercase, or with each word capitalized.
+  */
+  .text-transform {
+    text-transform: capitalize;
+  }
+
+  /*Vertical-align:
+   It sets vertical alignment of an inline, inline-block or table-cell box.
+  */
+  .vertical-align {
+    vertical-align: 3px;
+  }
+
+  /* White-space:
+  It sets how white space inside an element is handled.
+  */
+  .white-space {
+    white-space: pre-wrap;
+  }
+
+
