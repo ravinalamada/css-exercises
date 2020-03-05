@@ -17,14 +17,14 @@
     It sets the size of the font, which relies on what value you use.
   */
   .font-size {
-    font-size: larger;
+    font-size: 16px;
   }
   /* Font-weight:
     It sets the weight of the font, and its result depends on what value you put there
   */
 
   .font-weight {
-    font-weight: bolder;
+    font-weight: 400;
   }
 
   /*
@@ -39,12 +39,11 @@
     It sets the height of a line box. It's commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.
   */
   .pink {
-    line-height: 2px;
-    border: pink
+    line-height: 1.25;
   }
 
   /*Font-variant:
-    is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian.
+    It is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian.
   */
   p.small {
     font-variant: small-caps;
@@ -52,7 +51,7 @@
 
   /*
     Font-stretch:
-    It selects a normal, condensed, or expanded face from a font.
+    It sets how wide each character to be. Selects a normal, condensed, or expanded face from a font.
     */
     .font-stretch {
       font-stretch: normal;
@@ -61,9 +60,9 @@
   /* Font-size-adjust:
     It sets how the font size should be chosen based on the height of lowercase rather than capital letters.
   */
-  .inherit {
-    font-size-adjust: inherit;
-    font-family: inherit;
+  p {
+    font-size-adjust: 1;
+    font-size: 32px;
   }
   /*Font-synthesis:
   It controls which missing typefaces, bold or italic, may be synthesized by the browser.
@@ -72,7 +71,7 @@
     font-synthesis: style ;
   }
   /*Letter-spacing:
-    It allows the user to set space in between of a letter.
+    It allows the user to set space in between a letter.
   */
   .letter-spacing {
     letter-spacing: 1px;
@@ -82,13 +81,13 @@
     It allows a user to control space in between of each word.
   */
   .word-spacing {
-    word-spacing: 36rem;
+    word-spacing: 0,3rem;
   }
   /*Text-align:
-    It sets the horizontal alignment of a block element or table-cell box.
+    It sets the horizontal position of a block element or table-cell box.
   */
   .text-align {
-    text-align: center;
+    text-align: justify;
   }
   /*text-decoration:
     It sets the appearance of decorative lines on text. It is a shorthand for text-decoration-line, text-decoration-color, text-decoration-style, and the newer text-decoration-thickness property.
@@ -139,7 +138,7 @@
   }
 
   /* White-space:
-  It sets how white space inside an element is handled.
+  It controls how white space behaves.
   */
   .white-space {
     white-space: pre-wrap;
