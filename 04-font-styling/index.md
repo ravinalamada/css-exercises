@@ -38,7 +38,7 @@ H3 | `1.5rem` | `700` | `1em`  | - | -
 H4 | `1.25rem` | `700` | `1em`  | - | -
 H5 | `1rem` | `700` | `1em`  | - | -
 H6 | `1rem` | `700` | `1em`  | `small-caps` | -
-Intro paragraph | `1.125rem` | `400` | `1em`  | - | `0.1em`
+ intro-paragraph| `1.125rem` | `400` | `1em`  | - | `0.1em`
 Paragraphs | `1rem` | `400` | `1em`  | - | -
 Small | `0.75rem` | `400` | `1em`  | - | -
 
