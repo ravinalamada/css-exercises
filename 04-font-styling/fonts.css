@@ -1,18 +1,4 @@
-  #section_sans_serif {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #section_serif {
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-  }
-  #section_monospace {
-    font-family: "Courier New", Courier, monospace;
-  }
-  #section_fantasy {
-    font-family: Copperplate, fantasy ;
-  }
-  #section_cursive {
-    font-family: cursive;
-  }
+
   .example h1 {
      font-size: 2.5rem;
      font-weight: 800;
@@ -44,22 +30,38 @@
     margin-block-end: 1em;
     font-variant-ligatures: small-caps;
   }
-   p.intro {
+  .example .intro {
     font-size: 1.125rem;
     font-weight: 400;
     margin-block-end: 1em;
     letter-spacing: 0.1em;
   }
-  p {
+  .example p {
     font-size: 1rem;
     font-weight: 400;
     margin-block-end: 1em;
   }
-   p + small {
+  .example p + small {
     font-size: 0.75rem;
     font-weight: 400;
     margin-block-end: 1em;
    }
+
+   #section_sans_serif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #section_serif {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  #section_monospace {
+    font-family: "Courier New", Courier, monospace;
+  }
+  #section_fantasy {
+    font-family: Copperplate, fantasy ;
+  }
+  #section_cursive {
+    font-family: cursive;
+  }
 
 
 
