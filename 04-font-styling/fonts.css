@@ -7,6 +7,12 @@
   #section_monospace {
     font-family: "Courier New", Courier, monospace;
   }
+  #section_fantasy {
+    font-family: Copperplate, fantasy ;
+  }
+  #section_cursive {
+    font-family: cursive;
+  }
   .example h1 {
      font-size: 2.5rem;
      font-weight: 800;
