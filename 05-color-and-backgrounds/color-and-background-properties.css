@@ -6,3 +6,75 @@
     /* Property example with a value */
 
   }
+  /* Color:
+    Color, or colour, is the characteristic of visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple. This perception of color derives from the stimulation of photoreceptor cells by electromagnetic radiation.
+  */
+  p {
+    color: navy;
+  }
+  /* Background-color:
+    It sets color at the background of the document.
+  */
+  p {
+    background-color: rgb(153,102,153);
+    color: rgb(255,255,204);
+  }
+
+  /* Background-image:
+    The background-image property sets one or more background images for an element. By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.Default value: none.
+  */
+  p {
+    background-image: url(#section_sans_serif);
+    background-color: olive;
+  }
+
+  /* Background-repeat:
+    It defines how background images are repeated.
+  */
+  p {
+    background-repeat: round;
+  }
+
+  /* Background-position:
+    It defines where a background image should be positioned within an element.
+  */
+  p{
+    background-position: right;
+  }
+  /* Background-attachment:
+    It sets whether a background image's position is fixed within the viewport, or scrolls with its containing block.
+  */
+  p {
+    background-image: url(/);
+    background-attachment: scroll;
+  }
+
+  /* Background-clip:
+    It defines whether an element's background extends underneath its border box, padding box, or content box.
+  */
+  p {
+    background-clip: content-box;
+  }
+
+  /* Background-origin:
+    It determines how the background-position of a background in a certain box is calculated
+  */
+  p {
+    background-origin: border-box;
+  }
+
+  /* Background-size:
+    It sets the  size of the background images.
+  */
+  p {
+    background-size: 2px;
+  }
+
+  /* Box-shadow:
+    It inserts shadow effects around an element's frame.
+  */
+  p {
+    box-shadow:12px 12px 2px 1px rgba(50, 50, 255, .2);
+  }
+
+
