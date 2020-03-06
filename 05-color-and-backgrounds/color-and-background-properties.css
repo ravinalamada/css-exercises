@@ -7,7 +7,7 @@
 
   }
   /* Color:
-    Color, or colour, is the characteristic of visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple. This perception of color derives from the stimulation of photoreceptor cells by electromagnetic radiation.
+    Color sets text color according to value which you set.
   */
   p {
     color: navy;
@@ -16,15 +16,15 @@
     It sets color at the background of the document.
   */
   p {
-    background-color: rgb(153,102,153);
-    color: rgb(255,255,204);
+    background-color:purple;
+    color: orange;
   }
 
   /* Background-image:
     The background-image property sets one or more background images for an element. By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.Default value: none.
   */
   p {
-    background-image: url(#section_sans_serif);
+    background-image: url(/fork-button.png);
     background-color: olive;
   }
 
