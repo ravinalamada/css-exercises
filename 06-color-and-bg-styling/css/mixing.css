@@ -1,34 +1,33 @@
 
   .Dory {
-  background-color: dodgerblue;
-  background-image :linear-gradient(to bottom,rgba(30,75,151,1),rgba(100,50,30,0.5));
-  background-image:url("../images/coral-reef.png"),url("../images/bubble.png"),url("../images/crab.png");
-  background-position:to bottom;
-  background-repeat:repeat;
-  background-size: 700px,
+  background-color: seagreen;
+  background-image : linear-gradient(to bottom,rgba(30,75,151,1),rgba(100,50,30,0.5));
+  background-image: url("../images/bubble.png"),
+                    url("../images/crab.png"),
+                    url("../images/coral-reef.png");
+  background-position: top,right, bottom;
+  background-repeat:  repeat,unset,repeat-y;
+  background-size: 30%, 30%, 50%;
 }
  .Henry {
-  background-color: goldenrod;
-  background-image:linear-gradient(to top,rgba(250, 162, 0, 0.904),rgba(250,100,0,0.5));
-  background-image:url("../images/grass-clump.png"),url("../images/grass-left.png"),url("../images/grass-tile.png");
-  background-position: left;
+  background-color: cornsilk;
+  background-image:linear-gradient(to top,rgba(0, 250, 0, 0.356),rgba(250,250,0,0.5));
+  background-image: url("../images/grass-tile.png"),
+                    url("../images/grass-clump.png"),
+                    url("../images/grass-left.png");
+  background-position: left, center,right;
   background-repeat:repeat;
-  background-size: 700px,
  }
+
  .Lu-Seal {
-  background-color:whitesmoke;
-  background-image: linear-gradient(to top,rgba(2, 212, 30, 0.924),rgba(250, 250, 0, 0.993));
-  background-image: url("../images/sun.png");
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: 700px,
- }
- .Lu-Seal {
-  background-color: whitesmoke;
-  background-image: linear-gradient(to top,rgba(250, 162, 0, 0.904),rgba(250,100,0,0.5));
-  background-image: url("../images/palm-2.png"),url("../images/palm.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 700px,
- }
+  background-color: lightskyblue;
+  background-image: linear-gradient(to top,rgba(250, 0, 0, 0.5),rgba(0,250,0,0.5));
+  background-image: url("../images/sun.png"),
+                    url("../images/beach-ball.png"),
+                    url("../images/palm-2.png"),
+                    url("../images/palm.png");
+  background-position: top left, bottom,bottom right,bottom left;
+  background-repeat: no-repeat,no-repeat,repeat-x;
+  background-size: 150px,200px,600px,400px
+
 
