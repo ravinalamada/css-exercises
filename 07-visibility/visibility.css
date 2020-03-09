@@ -15,4 +15,32 @@
   - Why would we use `visibility: visible;`?
 
 */
+  /* Opacity
+      Opacity specifies how transparent an element is.
+  */
+  p {
+    opacity: 0,5;
+  }
+
+  /*Display
+    It defines whether an element is treated as a block or inline elemant and the layout used for its children,such as flow layout ,grid or flex.
+  */
+  p {
+    display: inline-flex;
+  }
+
+  /* Visibility
+    It shows or hides an element without changing the layout of a document. The property can also hide rows or columns in a <table>.
+  */
+  p {
+    visibility: hidden;
+  }
+  /* Opacity affects the entire element it is applied to, whereas background affects only one aspect
+  */
+
+  /*The difference between `display: none;` and `visibility: hidden
+    Display:none is that the tag doesn't occur on the page at all, but it can still interacted through the dom.And there will no space allocated between the tag whereas the visibility:hidden, the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page
+  */
+  /* We use visibility:visible because we want the content to be seen by someone.*/
+
 
