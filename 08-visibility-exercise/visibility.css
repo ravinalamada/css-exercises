@@ -10,5 +10,17 @@ li> a[href="#/contact"] {
   visibility: hidden;
 }
 
+[data-bg-color="blue"],
+[data-bg-color="yellow"],
+tr:nth-child(2)
+{
+  display:none;
+}
 
 
+span {
+  display: none;
+}
+span {
+  opacity: 0.5;
+}
