@@ -1,0 +1,14 @@
+li> a[href="#/"] {
+  visibility: visible;
+}
+
+li> a[href="#/about"] {
+  visibility: hidden;
+}
+
+li> a[href="#/contact"] {
+  visibility: hidden;
+}
+
+
+
