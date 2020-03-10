@@ -47,17 +47,18 @@
                     url("../images/beach-ball.png"),
                     url("../images/palm-2.png"),
                     url("../images/palm.png"),
-                    linear-gradient(0deg,sandybrown 30%,seagreen 50%,lightskyblue 60%);
+                    linear-gradient(0deg,sandybrown 0%,sandybrown 40%,seagreen 40%,seagreen 85%,lightskyblue 85%,lightskyblue 100%);
   background-color: white;
   background-position: 0% 0%,
-                       50% 100%,
-                       100% 100%,
-                       100% 0%;
-    background-size: 0%,
+                       70% 90%,
+                       80% 70% ,
+                       0% 85%,
+                       0% 100%;
+    background-size:
+                     5%,
                      20%,
                      30%,
-                     40%,
-                     40%,
+                     27%,
                      100%;
     background-repeat: no-repeat
                        no-repeat,
