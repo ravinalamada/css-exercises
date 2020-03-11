@@ -7,3 +7,22 @@
   }
   /*  Box model distinguishes the different boxes such as a margin, padding which shape the web pages. It is useful for building web pages because it makes your page has a good layout. There are 2 different box model which you can use - standard box and an alternate box model.It is better to use an alternative model because it introduced some time after the standard box model. According to this research (developper mozilla.org, Box model-learn developper,MDN,jan 15 2020,11/03/2020).
   */
+ div {
+   content: normal;
+   width: 50px,60px,80px,100px;
+   margin: 10px;
+   padding: 10px;
+   border:1px dashed blue;
+   background-color: rosybrown;
+   color: yellow;
+ }
+ /*.padding {
+   content: normal;
+   width: 80px;
+   height: 80px;
+   margin: 10px;
+   padding: 10px;
+   border: 4px solid red;
+   background-color: yellow;
+ }*/
+

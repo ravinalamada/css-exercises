@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <h1>
-      What is a box model?
-    </h1>
-  </header>
-  <main>
-    <p>
-      Box model distinguishes the different boxes such as a margin, padding which shape the web pages. It is useful for building web pages because it makes your page has a good layout. There are 2 different box model which you can use - standard box and an alternate box model.It is better to use an alternative model because it introduced some time after the standard box model. According to this research (developper mozilla.org, Box model-learn developper,MDN,jan 15 2020,11/03/2020).
-    </p>
-  </main>
 
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boxes.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        What is a box model?
+      </h1>
+      <p>
+        Box model styles the pages with different boxes, and it occupies their fonction differently. It is useful for building web pages because it makes your page has a good layout. There are 2 different box model which you can use - standard box and an alternate box model.It is better to use an alternative model because it introduced some time after the standard box model. According to this research (developper mozilla.org, Box model-learn developper,MDN,jan 15 2020,11/03/2020).
+      </p>
+    </header>
+    <div class="margin">margin
+      <div id="padding">padding
+          <div id="border">border
+            <div id="content">content
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+
 </html>
