@@ -5,24 +5,81 @@
   */
     /* Property example with a value */
   }
-  /*  Box model distinguishes the different boxes such as a margin, padding which shape the web pages. It is useful for building web pages because it makes your page has a good layout. There are 2 different box model which you can use - standard box and an alternate box model.It is better to use an alternative model because it introduced some time after the standard box model. According to this research (developper mozilla.org, Box model-learn developper,MDN,jan 15 2020,11/03/2020).
+  /* Content-box:it is used to wrap the content of the page.
+     Padding-box: It is used to create spaces around the content box.
+     Border-box: It occupies the border of the page.
   */
- div {
-   content: normal;
-   width: 50px,60px,80px,100px;
-   margin: 10px;
-   padding: 10px;
-   border:1px dashed blue;
-   background-color: rosybrown;
-   color: yellow;
- }
- /*.padding {
-   content: normal;
-   width: 80px;
-   height: 80px;
-   margin: 10px;
-   padding: 10px;
-   border: 4px solid red;
-   background-color: yellow;
- }*/
+    p {
+     box-sizing: content-box;
+    }
+    p {
+      box-sizing:padding-box ;
+    }
+    p{
+       box-sizing: border-box;
+    }
+  /*Border: It is a box which is set after padding. And these are its longhand properties.
+  */
+  p {
+    border-color: blueviolet;
+  }
+  p {
+    border-width:2px;
+  }
+  p {
+    border-style: groove;
+  }
+
+   /* Margin: It is the area which wraps all the element of the html. And these are its longhand properties.
+   */
+   p {
+     margin-top: auto;
+   }
+   p{
+     margin-left: initial;
+   }
+   p {
+     margin-bottom: 3rem;
+   }
+   p {
+     margin-right: 5px;
+   }
+    /*Padding: It is the space which covers the box contnt.And these are its longhand properties
+    */
+    p {
+      padding-left: 5px;
+    }
+    p {
+      padding-top: initial;
+    }
+    p {
+      padding-bottom: unset;
+    }
+    p {
+      padding-right: 5em;
+    }
+    /*Display:occupies the element whether it is as a block or inline elements.*/
+    p {
+      display: flex;
+    }
+
+    /*Box-sizing: controls the size of the box model such as padding, border,margin and content.*/
+
+    p {
+      box-sizing: content-box;
+    }
+
+  /*- What happens when two differently sized margins of two different boxes collide?
+
+    The browser will take the size which is near the max or min.
+  */
+
+  /*  - What is the formula for working out an element's visual width? How is this different when using `box-sizing: border-box;` on the element?
+   The formula for working out an element's visual width is that you need to calculate the width of element before you set it whereas in box-sizing you just set the kye word value.
+   */
+
+  /* - What is the difference between `display` values `inline`, `inline-block`, and `block`?
+
+ The difference among these values is that in display with the value inline-block you can put width and height of the element and it applies to the box model which you set whereas the value inline is not and block element works as a toggle word wrap but the inline is not.
+*/
 
