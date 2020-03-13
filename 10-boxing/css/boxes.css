@@ -1,22 +1,23 @@
 
 header {
-  padding: 1rem;
-  margin: 1rem 0rem;
+  padding: 2rem 1rem;
+  margin-block-end: 1rem;
 }
 h1 {
   padding: 1rem;
   border: 1rem solid;
-  margin: 1rem 0rem 1rem 0rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
   display: block;
+}
+body {
+  margin: 1rem;
 }
 
 table {
-  padding-left: 1rem;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  display: block;
+  padding:2rem 1rem;
 }
+
  tr:nth-child(1) span {
   border-bottom: 1rem solid;
 }
@@ -41,14 +42,12 @@ td:nth-child(3) {
 
 
 footer {
-  margin: 1rem;
+  margin-block-start: 1rem;
   padding: 1rem;
 }
 
 footer > span {
   border: 1rem solid;
-  padding: 0rem;
-  margin: 0rem;
   display: block;
 }
 
