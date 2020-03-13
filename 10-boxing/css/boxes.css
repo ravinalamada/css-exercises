@@ -1,5 +1,54 @@
-h1 {
-  background-color: ;
-  border: 2rem solid #e3c285;
-  margin:2rem solid #b9c382 ;
+
+header {
+  padding: 1rem;
+  margin: 1rem 0rem;
 }
+h1 {
+  padding: 1rem;
+  border: 1rem solid;
+  margin: 1rem 0rem 1rem 0rem;
+  display: block;
+}
+
+table {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+}
+ tr:nth-child(1) span {
+  border-bottom: 1rem solid;
+}
+td:nth-child(1) {
+  padding-right: 1rem;
+}
+
+tr:nth-child(2) span {
+  border-top: 1rem solid;
+  border-bottom: 1rem solid;
+}
+td:nth-child(2) {
+padding-left: 1rem;
+padding-right: 1rem;
+}
+tr:nth-child(3) span {
+  border-top:1rem solid ;
+}
+td:nth-child(3) {
+  padding-left:1rem;
+}
+
+
+footer {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+footer > span {
+  border: 1rem solid;
+  padding: 0rem;
+  margin: 0rem;
+  display: block;
+}
+
