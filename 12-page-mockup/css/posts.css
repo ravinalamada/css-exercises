@@ -1,0 +1,11 @@
+.article {
+  text-align: center;
+  flex-direction: column-reverse;
+}
+#post1 a {
+  color: black;
+  font-weight: bolder;
+}
+
+
+
