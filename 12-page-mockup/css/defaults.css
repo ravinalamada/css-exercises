@@ -1,6 +1,10 @@
-body {
-  background-color: white;
-  width: 800px;
-  height: 700px;
-  margin: 0;
+
+html {
+  display: block;
 }
+body {
+  display: inline-block;
+}
+
+
+
