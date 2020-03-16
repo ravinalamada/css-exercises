@@ -43,6 +43,7 @@ word-wrap
 */
 
 /* The currentcolor Vs inherit
+The currentcolor only apply in a presized element whereas with the inherit, the child element inherit its parents.*/
 
 
 /* Revert brings the element value back into the origin if there is nothing has been changed in the property.
@@ -52,6 +53,7 @@ Unset set the editing into  its initial.
 Initial applies the default value ,which are set by browser to element.
 */
 
-/* I think it is dangerous to use inherit value when want to apply different value into those children because all the children element inherit its parent element, and those revert ,unset and initial as well as they bring our editing into its origin so it may affect our work badly.*/
+/* I think it is dangerous to use inherit value when you want to apply different value into those children because all the children element inherit its parent element, and those revert ,unset and initial as well as they bring our editing into its origin so it may affect our work badly.*/
 
 /* The possibilities with using an ancestor or universal selector, combined with the `inherit` value.*/
+/*All of the child element may inherit its parent element, and may not be able to make any change in your work anymore.*/
