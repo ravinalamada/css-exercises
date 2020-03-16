@@ -1,20 +1,25 @@
-.icons {
-  text-align: center;
+.icon {
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+}
+.icon[href^="https://facebook"] {
+  background-image: url("../images/icon-facebook.png");
+}
+.icon[href^="https://twitter"] {
+  background-image: url("../images/icon-twitter.png");
 }
 
-#twitter {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-#facebook {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+.icon[href^="https://github"] {
+  background-image: url("../images/icon-github.png");
 }
 
-#github {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
+/*
+This element is most likely an anchor.We use the 'href' of the anchor as the key to the source of the background image 'url()'
+*/
+
