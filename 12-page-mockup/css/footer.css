@@ -1,22 +1,24 @@
-footer {
-  text-align: center;
-  padding-block-start: 6rem;
-  padding-block-end: 6rem;
-  border-block-start: 1px rgb(220,220,220) solid;
+  footer {
+    text-align: center;
+    padding-block-start: 6rem;
+    padding-block-end: 6rem;
+    border-block-start: 1px rgb(220,220,220) solid;
+  }
 
-}
-footer ul{
-  list-style: none;
-  margin-block-start: 0;
-  margin-block-end: 2rem;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  padding: 0;
-}
-footer li {
-  display: inline;
-}
-footer li:not(:first-child):not(:last-child) {
-  margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
-}
+  footer ul{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 2rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0;
+  }
+
+  footer li {
+    display: inline;
+  }
+
+  footer li:not(:first-child):not(:last-child) {
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+  }
