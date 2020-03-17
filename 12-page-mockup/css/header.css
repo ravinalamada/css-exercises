@@ -4,15 +4,12 @@ body > header {
   margin-block-start: 1rem;
   margin-block-end: 1rem;
   }
-body > header h1 {
+header h1 a {
   font-size: 2rem;
-  line-height: 1;
-  font-weight: 600;
-  margin: 1rem;
+  text-decoration: none;
+  color: white;
   }
 body > header a {
-  color: white;
-  text-decoration: white;
   }
 
 

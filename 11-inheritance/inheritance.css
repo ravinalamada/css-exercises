@@ -1,6 +1,5 @@
 /*
-Css inheritance is the css which has the element inherited its parent. And it affects it
-all element which are children of that parent element.
+Css inheritance means that the child element inherited its parent value property.It affect the value properties.
 */
 /* The properties have values that are inherited by default
 border-collapse
@@ -32,7 +31,6 @@ text-align-last
 text-decoration-color
 text-indent
 text-justify
-text-shadow
 text-transform
 visibility
 white-space
@@ -46,14 +44,14 @@ word-wrap
 The currentcolor only apply in a presized element whereas with the inherit, the child element inherit its parents.*/
 
 
-/* Revert brings the element value back into the origin if there is nothing has been changed in the property.
+/* Revert brings the element value back into its original inherited value.
 
-Unset set the editing into  its initial.
+Unset set the editing into its initial.
 
-Initial applies the default value ,which are set by browser to element.
+Initial or css normalize applies the default value ,which are set by browser to element.
 */
 
-/* I think it is dangerous to use inherit value when you want to apply different value into those children because all the children element inherit its parent element, and those revert ,unset and initial as well as they bring our editing into its origin so it may affect our work badly.*/
+/* I think it is dangerous to use inherit value because some property elements are not good to be inherited, and those revert and unset are dangerous because they will undo all the work which we have done if we don't put them specificaly.*/
 
 /* The possibilities with using an ancestor or universal selector, combined with the `inherit` value.*/
 /*All of the child element may inherit its parent element, and may not be able to make any change in your work anymore.*/
