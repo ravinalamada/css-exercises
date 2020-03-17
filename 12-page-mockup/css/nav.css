@@ -1,16 +1,19 @@
 
-body > nav {
+ nav {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-block-end: -9rem;
   margin-block-start: 1rem;
-  text-align: center;
+  text-align: right;
   margin-inline-end: 0rem;
 }
 
-body > nav ul {
+ nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 46px;
+  text-align: right;
+}
+nav ul li a{
+  margin: 1px;
 }
 
   nav ul li {
@@ -18,19 +21,14 @@ body > nav ul {
     display: inline;
   }
 
-  body > nav li:first-child {
+nav li:first-child {
     margin-inline-start: 1rem;
   }
 
-  body > nav li:last-child {
+  nav li:last-child {
     margin-inline-end: 1rem ;
   }
 
-nav ul a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 
 
 
