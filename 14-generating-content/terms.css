@@ -18,3 +18,21 @@
     2. Major clause `<h3>` in a new `<section>`
     …
 */
+
+body {
+  counter-reset: section;
+}
+h3::before {
+  counter-increment: section;
+  content: counter(section) ":"
+}
+section::before {
+  margin-left: 16px;
+}
+ol::before {
+  margin-left: 16px;
+}
+
+
+
+
