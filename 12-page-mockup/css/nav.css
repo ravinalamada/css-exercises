@@ -1,17 +1,23 @@
 
  nav {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-block-end: -9rem;
-  margin-inline-end: 0rem;
+  margin-block-end: 3rem;
+  margin-inline-end: 1rem;
+  margin-block-start: -7rem;
 }
 
  nav ul {
   list-style: none;
   margin: 46px;
+  text-transform: uppercase;
+  text-align: right;
+  word-spacing: 1rem;
+
 }
 nav ul li a {
   margin: 1px;
   color: white;
+  text-decoration: none;
 }
 
   nav ul li {
