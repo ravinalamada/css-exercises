@@ -1,0 +1,31 @@
+/* Pseudo-element
+1- The special property that we need to set to element in order to make pseudo-element works is
+a content property.
+
+2- The founction that we can use in that property is a counter ()
+
+3- The various pseudo-elements are ::first-letter, ::first-line,	::selection, ::after, and ::before.
+
+4- We use psedo-element because we want to style a specific part of element.
+*/
+
+/* Counters
+1-How do we *count* in CSS - i.e. what declaration do we use?*/
+
+  p {
+    counter-reset: none ;
+  }
+/*
+2- The way we reset a counter is, name the element by using a counter-indent and put the integrer property with a value of counter which you want to reset.
+
+3- The counters are useful for counting and measuring a frequency and time.
+*/
+
+/* Lists
+
+1-The properties that are only related to lists:list-style,list-style-image,list-style-position,list-style-type.
+
+2- The type of bullet styles are square, circle, disc, letters, roman numerals,uppercase roman numerals.
+
+3- Yes, any group of the element can be styled to look like a list.
+

@@ -5,7 +5,6 @@
 Sometimes we don't have an appropriate element, or child elements to work with. We could use *pseudo-elements* instead!
 
 But for a pseudo-element to work we need a special property set for the element…
-
 - Do you know what that special property is?
 - What *functions* can we use in that property's value?
 - What are the various pseudo-elements?
@@ -26,3 +25,4 @@ There are some specific properties and values tied to Lists, i.e. `<ul>`, `<ol>`
 - Name as many properties as you can that are only related to lists
 - What types of bullet styles are there?
 - Can any group of elements be styled to look like a list?
+
