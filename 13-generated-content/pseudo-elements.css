@@ -4,9 +4,9 @@ a content property.
 
 2- The founction that we can use in that property is a counter ()
 
-3- The various pseudo-elements are ::first-letter, ::first-line,	::selection, ::after, and ::before.
+3- The various pseudo-elements are ::first-letter, ::first-line,	::selection, ::after, and ::before, ::cue, ::seection.
 
-4- We use psedo-element because we want to style a specific part of element.
+4- We use psedo-element because we want to style a specific part of element, and it is .
 */
 
 /* Counters
@@ -16,16 +16,20 @@ a content property.
     counter-reset: none ;
   }
 /*
-2- The way we reset a counter is, name the element by using a counter-indent and put the integrer property with a value of counter which you want to reset.
+2- The way we reset a counter is, name the element by using a counter-reset and put the integrer property with a value of counter which you want to reset.
 
-3- The counters are useful for counting and measuring a frequency and time.
+3- The counters are useful for numbering a web and it is more flexibility.
 */
 
 /* Lists
 
-1-The properties that are only related to lists:list-style,list-style-image,list-style-position,list-style-type.
+1-The properties that are only related to lists:
+-list-style,list-style-image:url()
+-list-style-position:outside,inside
+-list-style-type:square,disc,circle,emoji
 
 2- The type of bullet styles are square, circle, disc, letters, roman numerals,uppercase roman numerals.
 
-3- Yes, any group of the element can be styled to look like a list.
+3- Yes, It can list a group of element by using display:list-item.
+
 

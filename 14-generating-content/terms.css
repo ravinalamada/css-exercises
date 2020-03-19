@@ -23,17 +23,17 @@ body {
   counter-reset: section;
 }
 h3::before {
-  counter-increment: section;
-  content: "section" counter(section) ":" " ";
+  counter-increment: major-clause;
+  content: counter(major-clause) ".";
 }
 
-h3 {
+/*h3 {
   counter-reset: h4;
 }
 
    h4::before {
-  counter-increment: h4;
-  content: counter(section) "." counter(h4 ) ". " " ";
+  counter-increment: h3;
+  content: "section" counter(section) "." counter(h4 ) ". " " ";
   }
 
   li::before {
@@ -78,6 +78,7 @@ h3 {
   p {
     font-size: 16px;
   }
+
 
 
 
