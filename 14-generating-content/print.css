@@ -7,8 +7,24 @@
 /* Only styles for printers please */
 @media print {
   body {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: normal;
+    background-color: lightcoral;
+    border: 1px black solid;
   }
-
+  ol > li {
+   font-size: 3rem;
+  }
+   a::after {
+    content: "[" attr(href) "]";
+  }
+  abbr[title^="Cascading StyleSheets"]::after {
+    content: "[" attr(title) "]";
+  }
+  blockquote::after {
+    content: "[" attr(cite) "]";
+  }
+  img {
+     content: "[" attr(src) "]";
+  }
 }
