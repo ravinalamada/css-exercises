@@ -20,64 +20,52 @@
 */
 
 body {
-  counter-reset: section;
+  counter-reset: major-clause;
+  width: 45rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3::before {
   counter-increment: major-clause;
-  content: counter(major-clause) ".";
+  content: counter(major-clause) "."" ";
+}
+h3 {
+  counter-reset: clause;
+}
+h4::before {
+  counter-increment: clause;
+  content: counter(major-clause) "." counter(clause) "."" ";
 }
 
-/*h3 {
-  counter-reset: h4;
+ol {
+  counter-reset: list;
 }
 
-   h4::before {
-  counter-increment: h3;
-  content: "section" counter(section) "." counter(h4 ) ". " " ";
-  }
+ol > li::before {
+  counter-increment: list;
+  content: counter(major-clause) "." counter(clause) "." counter(list, lower-alpha) "."" ";
+}
+li > ol {
+  counter-reset: nested-list;
+}
 
-  li::before {
-  counter-reset: li;
-  }
-  ol {
-    counter-increment: li;
-    content: counter(li) "." counter(ol) "." " ";
-    list-style-type: lower-latin;
-  }
+ li > ol > li::before {
+  counter-increment: nested-list;
+  content: counter(nested-list) "."
+           counter(major-clause) "."
+           counter(clause) "."
+           counter(list, lower-alpha) "."
+           counter(nested-list,lower-roman) "."" ";
+}
 
-  ol {
-    counter-reset: ol;
-  }
-   li > ol {
-    counter-increment: ol;
-    content: counter(ol) "." counter(li) "." " ";
-    list-style-type: lower-roman;
-  }
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: normal;
-    width: 45rem;
-  }
 
-   h1 {
-    font-size: 29px;
-  }
 
-  h2 {
-    font-size: 25px;
-  }
 
-  h3 {
-    font-size: 20px;
-  }
 
-  h4 {
-    font-size: 18px;
-  }
 
-  p {
-    font-size: 16px;
-  }
+
+
 
 
 

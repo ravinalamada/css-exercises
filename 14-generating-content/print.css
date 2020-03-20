@@ -1,9 +1,14 @@
 /* Styles for all mediums go here */
 @media all {
 
+
 }
 
 /* Only styles for printers please */
 @media print {
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
 
 }
