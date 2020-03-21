@@ -1,0 +1,32 @@
+body {
+  min-width: 600px;
+  border: 1px solid gray;
+  font-size: 18px;
+  display: table;
+}
+header h1 {
+    margin-left: 8px;
+    text-align: start;
+}
+
+section h2 {
+  display: table-cell;
+  table-layout: fixed;
+  vertical-align: middle;
+  padding: 12px;
+  padding-left: 80px;
+  font-weight: bolder;
+}
+section p {
+  display: table-cell;
+  vertical-align: middle;
+  width: 480px;
+  font-weight: 540;
+  padding-left: 2px;
+  padding-right:20px;
+  padding-bottom:15px;
+}
+footer {
+  margin-top: 25px;
+  margin-left: 8px;
+}
