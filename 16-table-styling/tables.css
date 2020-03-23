@@ -4,6 +4,7 @@ body {
   border: 1px solid gray;
   display: table;
 }
+
 header h1 {
     margin-left: 8px;
     text-align: start;
@@ -21,6 +22,7 @@ section h2 {
   padding-left: 80px;
   font-weight: bolder;
 }
+
 section p {
   display: table-cell;
   vertical-align: middle;
@@ -28,6 +30,7 @@ section p {
   padding-right:20px;
   padding-bottom:15px;
 }
+
 footer {
   margin-top: 25px;
   margin-left: 8px;
