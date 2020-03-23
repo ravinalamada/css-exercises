@@ -4,6 +4,7 @@
 }
 #post1 a {
   color: black;
+  font-size: larger;
   font-weight: bolder;
   text-decoration: none;
   margin-top: 30px;
@@ -12,9 +13,9 @@
 #post3 a {
   text-align: center;
   color: black;
+  font-size: larger;
   margin: 1px 1px;
   text-decoration: none;
-  margin-bottom: 100px;
   border-block-start: 1px rgb(220,220,220) solid;
 
 }
