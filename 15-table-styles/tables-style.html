@@ -13,12 +13,12 @@
   </header>
   <main>
     <p>
-      The default value of those properties
+      These are the default value of those properties:
     </p>
     <ul>
       <li>table-layout: auto</li>
-      <li>border-spacing: collapse</li>
-      <li>border-collapse: 2px</li>
+      <li>border-spacing: 2px</li>
+      <li>border-collapse: separate</li>
       <li>caption-side: top</li>
       <li>empty-cells: show</li>
     </ul>
@@ -27,13 +27,13 @@
     </p>
     <ul>
       <li>table: &lt;table&gt;</li>
-      <li>table-row-group: &lt;trgroup&gt;</li>
-      <li>table-header-group: &lt;thgroup&gt;</li>
-      <li>table-footer-group: &lt;tfgroup&gt;</li>
+      <li>table-row-group: &lt;tboby&gt;</li>
+      <li>table-header-group: &lt;thead&gt;</li>
+      <li>table-footer-group: &lt;tfoot&gt;</li>
       <li>table-row: &lt;tr&gt;</li>
       <li>table-cell: &lt;td&gt;</li>
       <li>table-colunm-group: &lt;colgroup&gt;</li>
-      <li>table-caption: &lt;caption&gt;</li>
+      <li>table-caption: &lt;col&gt;</li>
     </ul>
   </main>
   <article>
@@ -46,13 +46,16 @@
       Border-spacing property requires border-collapse's value property is separate
     </p>
     <p>
-      Table-layout:auto is used for setting the automatic table-layout in a browser whereas within the table-layout:is used for putting the fixed table-layout.
+      The downsides of using the various `table*` values for `display` on a set of elements, thereby simulating a table layout on non-table elements is that you will be missed the related tabular.
     </p>
     <p>
-      Yes, we can use border-spacing, although it is not table element such as the navigation element.
+      Table-layout:auto depends on how wide the content is, whereas within the table-layout:fixed distributes the width of the cell into 50% and 50%.
     </p>
     <p>
-      Empty-cells property requires the border-collapse
+      Yes, we can use border-spacing, but all those no-table elements have to be set its own spesific display such as display:table-row,table-cell.
+    </p>
+    <p>
+      Empty-cells property requires the border-collapse.
     </p>
   </article>
 </body>
