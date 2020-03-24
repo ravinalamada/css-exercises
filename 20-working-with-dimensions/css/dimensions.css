@@ -1,0 +1,13 @@
+.example img {
+    max-width:50rem;
+    max-height: 50rem;
+}
+.table_container table {
+    min-width: 50rem;
+    overflow: visible;
+}
+.example svg {
+  width: 45rem;
+  height: 20rem;
+}
+
