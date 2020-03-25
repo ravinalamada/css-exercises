@@ -1,0 +1,29 @@
+nav.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: grey;
+}
+
+
+nav.breadcrumb ol li {
+  display: inline;
+  font-size: 18px;
+}
+
+nav.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "▼";
+}
+
+
+nav.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+nav.breadcrumb li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
