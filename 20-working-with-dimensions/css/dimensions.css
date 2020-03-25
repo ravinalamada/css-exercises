@@ -1,13 +1,24 @@
 .example img {
-    max-width:50rem;
-    max-height: 50rem;
+    max-width:100%;
+    height: auto;
 }
-.table_container table {
-    min-width: 50rem;
-    overflow: visible;
+/*other way to set the img to be seen in any devices but it only work when the width and height are specified
+max-width:100vh
+max-height:100vw
+*/
+/*or using  attributes condition
+img [width][height] {
+  width:auto
+  height:auto
+}*/
+.table_container {
+  overflow: auto;
+}
+ table {
+  min-width: 320px;
 }
 .example svg {
-  width: 45rem;
-  height: 20rem;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
