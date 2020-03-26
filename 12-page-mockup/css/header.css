@@ -8,9 +8,12 @@ body > h1 {
   font-size: 2rem;
   text-decoration: none;
   color: white;
-  margin-bottom: 1rem;
   }
-
+.lost {
+  display: inline;
+  margin-top: -2.5rem;
+  margin-bottom: 9rem;
+}
 
 
 

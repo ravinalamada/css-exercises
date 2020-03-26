@@ -1,11 +1,10 @@
   footer {
     text-align: center;
-    border-block-start: 1px rgb(220,220,220) solid;
   }
 
   footer ol{
     list-style: none;
-    margin-block-start: 0;
+    margin-block-start: 2rem;
     margin-block-end: 2rem;
     margin-inline-start: 0;
     margin-inline-end: 0;

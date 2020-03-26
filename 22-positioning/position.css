@@ -10,6 +10,6 @@
 
    6-The absolute positioned layouts are useful for setting the document in a remote layer, making the document to be movable to anywhere in a page.
 
-   7-The positioned element later will win the earlier positioned, and they earlier positioned element will then overlap onto later one. We can solve it by using z-index.
+   7-The positioned element later will win the earlier positioned, and they earlier positioned element will then overlap onto later one. We can solve it by using z-index property.
 
    8-The css's stacking contexct is the overlaping content in page.

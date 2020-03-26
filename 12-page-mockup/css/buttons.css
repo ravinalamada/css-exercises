@@ -1,7 +1,9 @@
 button {
   background-color: mediumblue;
-  width: 150;
-  height: 30;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
   margin-inline-start: 16px;
 }
 .older  {

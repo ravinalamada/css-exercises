@@ -3,21 +3,46 @@
   text-decoration: none;
 }
 #post1 a {
+  font-family: sans-serif;
   color: black;
-  font-size: larger;
+  font-size: 2rem;
   font-weight: bolder;
   text-decoration: none;
   margin-top: 30px;
-  margin-bottom: 0;
+  margin-bottom: 1px;
+  line-height: 38px;
 }
+
+#post2 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1.4rem;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+}
+#jess1 {
+  font-family: monospace;
+  font-weight: 100;
+  margin-block-end: 3rem;
+
+}
+
 #post3 a {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
   text-align: center;
   color: black;
-  font-size: larger;
+  font-size: 2rem;
   margin: 1px 1px;
   text-decoration: none;
-  border-block-start: 1px rgb(220,220,220) solid;
+  line-height: 38px;
+}
 
+#jess2 {
+  font-family: monospace;
+  font-weight: 100;
+  margin-block-start: 1px;
 }
 
 
