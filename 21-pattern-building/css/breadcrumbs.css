@@ -1,5 +1,5 @@
 nav.breadcrumb {
-  padding: 10px 16px;
+  padding: 1rem;
   list-style: none;
   background-color: grey;
 }
@@ -7,23 +7,18 @@ nav.breadcrumb {
 
 nav.breadcrumb ol li {
   display: inline;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
-nav.breadcrumb li+li:before {
-  padding: 8px;
+nav.breadcrumb li+li::before {
+  padding: 1rem;
   color: black;
-  content: "▼";
+  content: '►';
 }
-
 
 nav.breadcrumb li a {
   color: white;
   text-decoration: none;
-}
-nav.breadcrumb li a:hover {
-  color: black;
-  text-decoration: underline;
 }
 
 
