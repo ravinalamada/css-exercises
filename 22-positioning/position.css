@@ -1,0 +1,15 @@
+/* 1- The default value for position is static.
+
+   2- Position property requires top,bottom, right and left properties to be suplied.
+
+   3- It is relative value.
+
+   4- The element will be displayed in way we positioned it as long as we supply the properties above.
+
+   5-The special about fixed and sticky is that they create a scroll bar in page.
+
+   6-The absolute positioned layouts are useful for setting the document in a remote layer, making the document to be movable to anywhere in a page.
+
+   7-The positioned element later will win the earlier positioned, and they earlier positioned element will then overlap onto later one. We can solve it by using z-index.
+
+   8-The css's stacking contexct is the overlaping content in page.
