@@ -1,0 +1,49 @@
+div.container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+section:nth-of-type(1) .container .circle{
+  position: absolute;
+  width: 25%;
+  height: 202%;
+  top: -13%;
+  left: 75%;
+  z-index: 0;
+}
+section:nth-of-type(1) .container .rect{
+  position: absolute;
+  width: 25%;
+  height: 26%;
+  top: -0.5%;
+  left: -0.5%;
+  z-index: 0;
+}
+
+section:nth-of-type(1) .container .pipe{
+  position: absolute;
+  width: 25%;
+  height: 74%;
+  top: 50%;
+  left: -0.5%;
+  z-index: 0;
+}
+
+section:nth-of-type(1) .container .bar{
+  position: absolute;
+  width: 25%;
+  height: 52%;
+  top: -14%;
+  left: 75%;
+  z-index: 0;
+}
+
+
+
+/*
+div.container {
+  width: 25%;
+  height: 20%;
+}*/
+

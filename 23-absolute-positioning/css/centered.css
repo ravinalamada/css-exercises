@@ -1,0 +1,41 @@
+section:nth-of-type(2) div{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+}
+
+section:nth-child(2) .example svg:nth-of-type(1) .circle{
+    width: 68%;
+    left: -33%;
+    top: -5%;
+    height: 71%;
+    position: absolute;
+}
+/*
+section:nth-of-type(2) .container .rect{
+  position: absolute;
+  width: 25%;
+  height: 26%;
+  top: -0.5%;
+  left: -0.5%;
+  z-index: 0;
+}
+
+section:nth-of-type(2) .container .pipe{
+  position: absolute;
+  width: 25%;
+  height: 74%;
+  top: 50%;
+  left: -0.5%;
+  z-index: 0;
+}
+
+section:nth-of-type(2) .container .bar{
+  position: absolute;
+  width: 25%;
+  height: 52%;
+  top: -14%;
+  left: 75%;
+  z-index: 0;
+}*/
