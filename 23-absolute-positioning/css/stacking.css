@@ -1,0 +1,42 @@
+section:nth-of-type(4) .example{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+section:nth-of-type(4) .container .circle{
+  width: 101%;
+  height: 108%;
+  left: 0%;
+  top: -4%;
+  z-index: 11;
+  position: absolute;
+}
+
+section:nth-of-type(4) .container .rect{
+  position: absolute;
+  width: 102%;
+  height: 101%;
+  top: -0.5%;
+  left: -0.5%;
+  z-index: 0;
+}
+
+section:nth-of-type(4) .container .pipe{
+  position: absolute;
+  width: 118%;
+  height: 102%;
+  top: -1%;
+  left: -9.5%;
+  z-index: 12;
+}
+
+section:nth-of-type(4) .container .bar{
+    position: absolute;
+    width: 277%;
+    height: 102%;
+    top: 0%;
+    left: -88%;
+    z-index: 11;
+}
+
