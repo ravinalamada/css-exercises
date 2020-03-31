@@ -6,15 +6,17 @@ The default value for these value are:
 
 The possible value for clear proprty are right, left, none, both.
 
-The rule associated with a floated item in terms of source order is
+The rule associated with a floated item in terms of source order is that the floatted element must go before the content which will flow over
 
 
- Yes, we can float others element such as table.
+ Yes, we can use inline-block and blocks.
 
  Yes, using pseudo-element for the parent and set display:table, clear:both, and Content:"", and put width and float properties with the children.
 
- BFC is that the way you solve problems for the web page layout.
+ BFC is a methodology on how the elements interact to each other.
 
- We can a float by using clear or overflow: hidden properties.
+ We can clear float by using clear or overflow: hidden properties.
 
- I don't have any idea.
+ It depends on how often I use it. BFC sets of rule for how the container contains its content.(using overflow)
+
+ */
