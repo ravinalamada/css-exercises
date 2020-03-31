@@ -1,0 +1,20 @@
+/*
+
+The default value for these value are:
+  float:none
+  clear:none
+
+The possible value for clear proprty are right, left, none, both.
+
+The rule associated with a floated item in terms of source order is
+
+
+ Yes, we can float others element such as table.
+
+ Yes, using pseudo-element for the parent and set display:table, clear:both, and Content:"", and put width and float properties with the children.
+
+ BFC is that the way you solve problems for the web page layout.
+
+ We can a float by using clear or overflow: hidden properties.
+
+ I don't have any idea.
