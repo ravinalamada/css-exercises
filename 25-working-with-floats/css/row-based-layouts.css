@@ -1,12 +1,29 @@
+.form_row {
+  clear: both;
+}
+
+
+
  button[type^="submit"] {
   float: right;
-  margin-top: -3.1rem;
+  margin-left: 22rem;
+  margin-block-start: -5.3rem;
+  text-align: right;
 }
 
 form h3{
-  margin-top: -0.4rem;
-  display: inline-block;
+  float: left;
+  line-height: 36px;
+  margin-block-start: 0rem;
+  margin-block-end: 3rem;
 }
+/*
+.form_row label {
+  float: left;
+  line-height: 39px;
+  width: 9rem;
+  text-align: right;
+}*/
 
 section:nth-of-type(4) div.form_row {
   margin-left: 7rem;
@@ -44,3 +61,4 @@ label[for^="field_end_date"] {
   margin-top: 0.1rem;
   margin-inline-start: 2.8rem;
 }
+*/
