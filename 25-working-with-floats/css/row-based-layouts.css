@@ -1,0 +1,46 @@
+ button[type^="submit"] {
+  float: right;
+  margin-top: -3.1rem;
+}
+
+form h3{
+  margin-top: -0.4rem;
+  display: inline-block;
+}
+
+section:nth-of-type(4) div.form_row {
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+}
+
+label[for^="field_title"] {
+  float: left;
+  margin-inline-end: 1rem;
+  margin-block-start: 0.5rem;
+}
+label[for^="field_company"] {
+  float: left;
+  margin-inline-end: 1rem;
+  margin-block-start: 0.5rem;
+  margin-inline-start: -2.4rem;
+}
+
+label[for^="field_start_date"] {
+  float: left;
+  margin-inline-end: 1rem;
+  margin-block-start: 0.5rem;
+  margin-inline-start: -2.4rem;
+}
+
+label[for^="field_end_date"] {
+  float: left;
+  margin-inline-end: 1rem;
+  margin-block-start: 0.5rem;
+  margin-inline-start: -2.09rem;
+}
+.form_actions button[type^="submit"] {
+  float: none;
+  margin-top: 0.1rem;
+  margin-inline-start: 2.8rem;
+}

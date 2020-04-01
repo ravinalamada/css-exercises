@@ -1,0 +1,17 @@
+
+section:nth-of-type(2) div {
+  overflow: hidden;
+}
+
+section:nth-of-type(2) div.container img[src^="images/inspector_gadget.jpg"] {
+  float: left;
+  padding-right: 1.5rem;
+}
+
+section:nth-of-type(2) div.container img[src^="images/doctor_claw.png"]{
+  float: left;
+  padding-bottom: 12rem;
+  padding-right: 3rem;
+}
+
+
