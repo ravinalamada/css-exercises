@@ -1,0 +1,74 @@
+/*
+1-a The order of property values in the shorthand `flex` property is flex-grow, flex-shrink, flex-basis.
+
+1-b The value 2,1, auto represents that the order is in reverse way.
+
+2-We need flex-wrap: wrap, and flex-flow: row flex wrap.
+
+3-The align-content controls spaces between items whereas the align-items determines places in how you to position your items.
+
+4-It is align-self property.
+
+5- The box model whis is similar to flex-basis property is padding
+6-The name of the property is flex-direction with the its value column-reverse or row-reverse.
+
+6-We can set
+             align-content: space-between
+             justify-content: space-aruond
+*/
+
+
+main {
+  border: 1rem solid purple;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 600px;
+
+}
+
+main > p:first-of-type {
+  background-color: black;
+  border: 1px solid red;
+  color: yellow;
+  align-self: flex-end;
+  order: 1;
+
+}
+main > p:nth-of-type(2){
+  background-color: green;
+  color: white;
+  border: 1px solid yellow;
+  align-self: flex-end;
+  order: 3;
+  flex-basis: 3rem;
+}
+
+main > p:nth-of-type(3) {
+  background-color: black;
+  border: 1px double green;
+  color: yellow;
+  align-self: flex-end;
+  flex-basis: 1rem;
+  order: -1;
+
+}
+
+main > p:nth-of-type(4) {
+  background-color: gray;
+  border: 1px double green;
+  color: whitesmoke;
+  align-self: flex-end;
+
+}
+
+
+main > p:last-of-type {
+  color: white;
+  background-color: green;
+  border: 1px black dotted;
+  align-self: flex-end;
+}
+
+
+

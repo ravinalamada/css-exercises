@@ -33,6 +33,7 @@ We're going to need to learn some terms or concepts too:
 With all that in mind, here are some questions you should be able to answer after your research:
 
 1. What is the order of property values in the shorthand `flex` property? i.e. Given… `flex: 2 1 auto`, what does the `2`, `1` and `auto` represent?
+
 1. What `flex-wrap` or `flex-flow` values do we need before we can use `align-content`?
 1. How is `align-content` different to `align-items`?
 1. Which property overrides the other - the container's `align-items` or the flex item's `align-self`?
