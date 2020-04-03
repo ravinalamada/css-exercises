@@ -1,3 +1,7 @@
 article {
   max-width: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-block-start: 1rem;
 }
