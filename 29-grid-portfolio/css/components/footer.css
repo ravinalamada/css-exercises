@@ -19,7 +19,12 @@ body > footer a:hover {
 }
 
 body > footer p:last-child {
+  float: right;
+  margin-block-start: -2rem;
+}
 
+body > footer p:first-child {
+  margin-block-start: 0rem;
 }
 
 body > footer p:last-child a {
@@ -36,5 +41,3 @@ body > footer p:last-child a::before {
   filter: grayscale(1);
 }
 
-body > footer p:last-of-type {
-}
