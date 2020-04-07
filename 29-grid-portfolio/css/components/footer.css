@@ -1,4 +1,6 @@
 body > footer {
+  display: grid;
+  grid-template-columns: repeat(2, 800px);
   color: #ccc;
   font-size: 0.75rem;
   border-block-start: 1px solid #4d4d4d;
@@ -19,12 +21,11 @@ body > footer a:hover {
 }
 
 body > footer p:last-child {
-  float: right;
-  margin-block-start: -2rem;
+
 }
 
 body > footer p:first-child {
-  margin-block-start: 0rem;
+
 }
 
 body > footer p:last-child a {
