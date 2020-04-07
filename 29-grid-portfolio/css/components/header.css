@@ -1,4 +1,8 @@
 body > header {
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  row-gap: 30px;
+  column-gap: 15px;
 
 }
 
@@ -22,6 +26,7 @@ body > header a:hover {
 
 body > header nav {
   font-size: 1rem;
+  margin-block-start: 45px;
 }
 
 body > header h1 {
@@ -33,10 +38,13 @@ body > header ul {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(5, 160px);
-  grid-column-gap: 15px;
+  grid-template-columns: repeat(5, 145px);
+  column-gap: 15px;
+  row-gap: 30px;
+
 }
 
 body > header li {
   border-block-end: 1px solid #4d4d4d;
+
 }

@@ -8,3 +8,6 @@ body > footer {
 body > footer a {
   color: #fff;
 }
+
+body > footer p:last-of-type {
+}
