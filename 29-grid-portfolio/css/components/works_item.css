@@ -1,9 +1,12 @@
 .works_item {
-
+  display: grid;
+  grid-template-columns: 16.9% 86%;
+  margin-block-start: 1rem;
 }
 
 .works_item_header {
   color: #ccc;
+  width: 9rem;
 }
 
 .works_item_content {
@@ -18,6 +21,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  margin-inline-start: -1rem;
 }
 
 .works_item_navigation a {
