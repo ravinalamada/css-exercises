@@ -1,4 +1,9 @@
 .post {
+  display: grid;
+  grid-template-areas: "blank header header header header header"
+                       "footer content content content content content";
+  column-gap: 15px;
+  row-gap: 30px;
 
 }
 
@@ -7,16 +12,17 @@
 }
 
 .post header {
-
+  grid-area: header;
 }
 
 .post_content {
-
+  grid-area: content;
 }
 
 /* This element doubles as the post meta block. Links, metadata, etc */
 .post footer {
   font-size: 0.75rem;
+  grid-area: footer;
 }
 
 .post_date {
