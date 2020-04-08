@@ -1,16 +1,19 @@
 .works_item {
   display: grid;
-  grid-template-columns: 16.9% 86%;
+  grid-template-columns: repeat(6, 145px);
+  grid-template-rows: repeat(4, 145px);
+  column-gap: 15px;
   margin-block-start: 1rem;
+
 }
 
 .works_item_header {
   color: #ccc;
-  width: 9rem;
 }
 
 .works_item_content {
-
+  display: grid;
+  grid-column: 2 / 7;
 }
 
 .works_item_image_container {
@@ -21,8 +24,9 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  margin-inline-start: -1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 30px);
+  margin-inline-start: -0.75rem;
 }
 
 .works_item_navigation a {
