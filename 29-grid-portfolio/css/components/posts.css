@@ -7,16 +7,22 @@
 
 }
 
+p {
+  margin-block-end: 1rem;
+}
+
 .post a {
   color: #f2f2f2;
 }
 
 .post header {
   grid-area: header;
+  margin-block-start: 1rem;
 }
 
 .post_content {
   grid-area: content;
+  margin-block-end: 1rem;
 }
 
 /* This element doubles as the post meta block. Links, metadata, etc */
@@ -27,6 +33,21 @@
 
 .post_date {
   margin: 0;
+}
+
+.post:nth-of-type(even) .image_half {
+  float: left;
+  margin-inline-end: 15px;
+}
+
+.post:nth-of-type(odd) .image_half {
+  float: right;
+  margin-inline-start: 15px;
+}
+
+.post:nth-of-type(odd) .image_full {
+  float: right;
+  inset-inline-end: 15px;
 }
 
 .post_categories ul {
@@ -69,3 +90,4 @@
   height: 1px;
   background-color: #4d4d4d;
 }
+

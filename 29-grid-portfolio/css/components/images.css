@@ -1,7 +1,10 @@
 .image_full {
+  width: calc((3* 145px) + (2* 15px));
 
 }
 
 .image_half {
-
+   width: calc((3* 145px) + (2* 15px));
 }
+
+
