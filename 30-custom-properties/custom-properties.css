@@ -1,18 +1,23 @@
-/* 1- The characters which need to be set when we define a Custom Property's name are dashes and underscores.
+/* 1- The characters which need to be set when we define a Custom Property's name are dashes and underscores, alpha numeric, lowercase.
 
-2- We can not use any other characters apart from those two characters which I wrote above.
+2- We can not use space, period(ful stop).
 
-3- The possible values that we can assign to a new custom property are number and text.
+3- The possible values that we can assign to a new custom property are number and text, key word.
 
-4-
+4- If you want to share one value with the element below.It is useless when you have different values which are the same property.
 
-5- We change the property's value into the new custom property's name which we've been defined. Also we need to use var function.
+5- We change the property's value into the new custom property's name which we've been defined. Also we need to use var function. We use var() and put the custom property inside the brackets (var(--change-me))
 
-6- Ways to override the custom property are default values, variables, inline properties, cascading values, scoped rulesets and mixins.
+6- Ways to override the custom property are default values:
+-change value
+-use @media
+- reassign the custom property
 
-7- It is useful to use a custom property because it help us to avoid writing our code repeatedly, also much neater.
 
-8-
+7- It is useful to use a custom property because it reduces repetion, write less code, 1 point of control.
+
+
+8- It only works with declaration blog.
 
 */
 
