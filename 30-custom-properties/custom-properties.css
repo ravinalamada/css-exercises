@@ -1,0 +1,18 @@
+/* 1- The characters which need to be set when we define a Custom Property's name are dashes and underscores.
+
+2- We can not use any other characters apart from those two characters which I wrote above.
+
+3- The possible values that we can assign to a new custom property are number and text.
+
+4-
+
+5- We change the property's value into the new custom property's name which we've been defined. Also we need to use var function.
+
+6- Ways to override the custom property are default values, variables, inline properties, cascading values, scoped rulesets and mixins.
+
+7- It is useful to use a custom property because it help us to avoid writing our code repeatedly, also much neater.
+
+8-
+
+*/
+
