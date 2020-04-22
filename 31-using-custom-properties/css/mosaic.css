@@ -11,9 +11,13 @@
 */
 
 :root {
-  --hue-multiplier: 36deg;
-  --opacity-multiplier: 0.1;
-
+  --hue : 36deg;
+  --row-number: 1;
+  --hue-multiplier: calc(var(--hue) * var(--row-number));
+  --opacity-multiplier: cacl(var(--opacity) * var(--opacity-number));
+  --opacity-number: 1;
+  --opacity: 0.1;
+  background-color: cacl(var(--hue-multiplier), 100%, 50%, var(--opacity-multiplier));
 }
 
   /* --base-opacity: 0.1;
@@ -26,14 +30,17 @@
 
 
   .row:nth-of-type(1) {
-
+  --row-number: 1;
 }
 
+.row:nth-of-type(2) {
+  --row-number : 2;
+}
 a:nth-of-type(1) {
-  background-color: hsla(200deg, 100%, 50%, var(--base-opacity));
+
 
 }
 a:nth-of-type(2) {
-  background-color: hsla(200deg, 100%, 50%, var(--second-opacity));
+
 }
-*/
+
