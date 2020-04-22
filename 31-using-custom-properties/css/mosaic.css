@@ -11,36 +11,98 @@
 */
 
 :root {
-  --hue : 36deg;
-  --row-number: 1;
-  --hue-multiplier: calc(var(--hue) * var(--row-number));
-  --opacity-multiplier: cacl(var(--opacity) * var(--opacity-number));
-  --opacity-number: 1;
-  --opacity: 0.1;
-  background-color: cacl(var(--hue-multiplier), 100%, 50%, var(--opacity-multiplier));
+  --root-hue:36deg;
+  --root-opacity: 0.1;
 }
 
-  /* --base-opacity: 0.1;
-  --increment: 0.1;
-  --second-opacity: calc(var(--base-opacity) + var(--increment));
-  --third-opacity: calc(var(--second-opacity) + var(--increment));
-  --fourth-opacity: calc(var(--third-opacity) + var(--increment));
-  */
-
-
-
-  .row:nth-of-type(1) {
-  --row-number: 1;
+.row a {
+  background-color: hsla(var(--hue), 100%, 50%, var(--opacity));
 }
 
-.row:nth-of-type(2) {
-  --row-number : 2;
+.row:nth-of-type(1) {
+  --hue:calc(var(--root-hue) * 1);
 }
-a:nth-of-type(1) {
 
 
+
+  .row:nth-of-type(2) {
+  --hue: calc(var(--root-hue) * 2);
 }
-a:nth-of-type(2) {
+
+.row:nth-of-type(3) {
+  --hue:calc(var(--root-hue) * 3);
+}
+
+
+.row:nth-of-type(4) {
+  --hue:calc(var(--root-hue) * 4);
+}
+
+  .row:nth-of-type(5) {
+  --hue: calc(var(--root-hue) * 5);
+}
+
+.row:nth-of-type(6) {
+  --hue:calc(var(--root-hue) * 6);
+}
+
+.row:nth-of-type(7) {
+  --hue:calc(var(--root-hue) * 7);
+}
+
+  .row:nth-of-type(8) {
+  --hue: calc(var(--root-hue) * 8);
+}
+
+.row:nth-of-type(9) {
+  --hue:calc(var(--root-hue) * 9);
+}
+
+.row:nth-of-type(10) {
+  --hue:calc(var(--root-hue) * 10);
+}
+
+
+.row a:nth-of-type(1) {
+  --opacity : calc(var(--root-opacity) * 1);
+}
+.row a:nth-of-type(2) {
+  --opacity: calc(var(--root-opacity) * 2);
 
 }
+.row a:nth-of-type(3) {
+  --opacity: calc(var(--root-opacity) * 3);
+}
+
+.row a:nth-of-type(4) {
+  --opacity: calc(var(--root-opacity) * 4);
+
+}
+
+.row a:nth-of-type(5) {
+  --opacity: calc(var(--root-opacity) * 5);
+}
+
+.row a:nth-of-type(6) {
+  --opacity: calc(var(--root-opacity) * 6);
+
+}
+.row a:nth-of-type(7) {
+  --opacity: calc(var(--root-opacity) * 7);
+}
+
+.row a:nth-of-type(8) {
+  --opacity: calc(var(--root-opacity) * 8);
+
+}
+
+.row a:nth-of-type(9) {
+  --opacity: calc(var(--root-opacity) * 9);
+}
+
+.row a:nth-of-type(10) {
+  --opacity: calc(var(--root-opacity) * 10);
+}
+
+
 
