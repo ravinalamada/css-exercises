@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    :root {
+      --red: 200;
+      --green: 132;
+      --blue: 167;
+
+      --master-color: calc((var(--red) * 50) +
+                      (var(--green) * 100) +
+                      (var(--blue) * 114)
+                       / 1000),
+
+                       calc((var(--red) * 50) +
+                      (var(--green) * 100) +
+                      (var(--blue) * 114)
+                       - 128),
+
+                       calc((var(--red) * 50) +
+                      (var(--green) * 100) +
+                      (var(--blue) * 114)
+                       * -1000);
+                    }
+
+
+div {
+  color: rgb(
+         var(--master-color),
+         var(--master-color),
+         var(--master-color));
+
+
+  background-color:rgb(
+                   var(--red),
+                   var(--green),
+                   var(--blue)
+                  );
+                }
+  </style>
+</head>
+<body>
+  <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quia labore provident, nesciunt similique minima, exercitationem odio esse eius quibusdam aliquid illo non. Quo eos voluptates minus ipsam amet magnam!
+  </div>
+</body>
+</html>

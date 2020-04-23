@@ -1,0 +1,14 @@
+/*
+1- We can use number, normal text, arthimetic symbol.
+
+2 - we can control the mathematical order of operation (PEDMAS / BODMAS) in the function by setting a () in a right place - calc((2+3) * 4).
+
+3- yes, we can.
+
+4- We have to multiple the uniteless number by 1 with whatever a unit you want to set.
+
+5- The "+" and "-" operators inside the function need spaces around them because the whitespace avoid concatenating of these arthimetic symbol which is invalid expression.
+
+6- We can convert a value into a negative value by multiplying it -1.
+
+7- I think we can use calc() to set color.
