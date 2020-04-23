@@ -20,101 +20,38 @@
 
 .row a {
 
-  --base-hue: calc(var(--hue) * var(--root-hue));
-  --base-opacity: calc(var(--opacity) * var(--root-opacity));
+  --base-hue: calc(var(--root-hue) * var(--hue));
+  --base-opacity: calc(var(--root-opacity) * var(--opacity));
 
-  background-color: hsla
-                    (var(--base-hue),
+  background-color: hsla(
+                    var(--base-hue),
                     var(--base-saturation),
                     var(--base-lightness),
                     var(--base-opacity));
 }
 
 
-.row:nth-of-type(1) {
-  --hue: 1;
-}
+.row:nth-of-type(1) {--hue: 1;}
+.row:nth-of-type(2) { --hue: 2;}
+.row:nth-of-type(3) {--hue: 3;}
+.row:nth-of-type(4) { --hue: 4;}
+.row:nth-of-type(5) {--hue: 5;}
+.row:nth-of-type(6) {--hue: 6;}
+.row:nth-of-type(7) {--hue: 7;}
+.row:nth-of-type(8) {--hue:  8;}
+.row:nth-of-type(9) {--hue: 9;}
+.row:nth-of-type(10) {--hue: 10;}
 
-
-
-  .row:nth-of-type(2) {
-  --hue: 2;
-}
-
-.row:nth-of-type(3) {
-  --hue: 3;
-}
-
-
-.row:nth-of-type(4) {
-  --hue: 4;
-}
-
-  .row:nth-of-type(5) {
-  --hue: 5;
-}
-
-.row:nth-of-type(6) {
-  --hue: 6;
-}
-
-.row:nth-of-type(7) {
-  --hue: 7;
-}
-
-  .row:nth-of-type(8) {
-  --hue:  8;
-}
-
-.row:nth-of-type(9) {
-  --hue: 9;
-}
-
-.row:nth-of-type(10) {
-  --hue: 10;
-}
-
-
-.row a:nth-of-type(1) {
-  --opacity : 1;
-}
-.row a:nth-of-type(2) {
-  --opacity: 2;
-
-}
-.row a:nth-of-type(3) {
-  --opacity: 3;
-}
-
-.row a:nth-of-type(4) {
-  --opacity: 4;
-
-}
-
-.row a:nth-of-type(5) {
-  --opacity: 5;
-}
-
-.row a:nth-of-type(6) {
-  --opacity: 6;
-
-}
-.row a:nth-of-type(7) {
-  --opacity: 7;
-}
-
-.row a:nth-of-type(8) {
-  --opacity: 8;
-
-}
-
-.row a:nth-of-type(9) {
-  --opacity: 9;
-}
-
-.row a:nth-of-type(10) {
-  --opacity: 10;
-}
+.row a:nth-of-type(1) {--opacity : 1;}
+.row a:nth-of-type(2) {--opacity: 2;}
+.row a:nth-of-type(3) {  --opacity: 3;}
+.row a:nth-of-type(4) {--opacity: 4;}
+.row a:nth-of-type(5) {--opacity: 5;}
+.row a:nth-of-type(6) {--opacity: 6;}
+.row a:nth-of-type(7) {--opacity: 7;}
+.row a:nth-of-type(8) {--opacity: 8;}
+.row a:nth-of-type(9) {--opacity: 9;}
+.row a:nth-of-type(10) {--opacity: 10;}
 
 
 
