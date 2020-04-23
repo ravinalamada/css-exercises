@@ -1,5 +1,5 @@
 /*
-1- We can use number, normal text, arthimetic symbol.
+1- We can use number, string,times, frequency, integer, vewport, fraction, lenght, arthimetic symbol.
 
 2 - we can control the mathematical order of operation (PEDMAS / BODMAS) in the function by setting a () in a right place - calc((2+3) * 4).
 
@@ -9,6 +9,6 @@
 
 5- The "+" and "-" operators inside the function need spaces around them because the whitespace avoid concatenating of these arthimetic symbol which is invalid expression.
 
-6- We can convert a value into a negative value by multiplying it -1.
+6- We can convert a value into a negative value by multiplying it with negative number.
 
-7- I think we can use calc() to set color.
+7- No, we can't.

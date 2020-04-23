@@ -1,15 +1,27 @@
 #ratio_2_1 {
-  padding-block-start: 50%;
+  padding-block-start: calc((400 / 800) * 100%);
 }
 
 #ratio_16_9 {
-  padding-block-start: 56.25%;
+  padding-block-start: calc((450 / 800) * 100%);
 }
 
 #ratio_4_3 {
-  padding-block-start: 75%;
+  padding-block-start: calc((600 / 800) * 100%);
 }
 
 #ratio_1_1 {
-  padding-block-start: 100%;
+  padding-block-start: calc((800 / 800) * 100%);
+}
+
+:root {
+  --min-width:400;
+  --max-width:800;
+  --base-value: 100%;
+
+}
+
+.ratio {
+  --width: calc(var(--min-width) / var(--max-width));
+  padding-block-start: calc(var(--width) * var(--base-value));
 }
