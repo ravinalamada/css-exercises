@@ -4,6 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    h1{
+      font-family: monospace;
+      color: brown;
+      border: 1px green solid;
+      width: 200px;
+    }
+    h1:hover {
+      color: hotpink;
+    }
+
+    main {
+      font-size: 1.2rem;
+      border: 2px black solid;
+      width: 50%;
+      background-color: grey;
+      color: white;
+      transition: all .1s;
+    }
+    main:hover {
+      background-image:  repeating-linear-gradient(217deg, rgba(229, 255, 0, 0.8),
+                                  rgba(0, 255, 42, 0) 17%);
+    }
+    .list {
+      color: blue;
+      background-color: wheat;
+      text-decoration: none;
+      list-style: none;
+      font-size: 1.5rem;
+      border-radius: 2rem;
+      width: 50%;
+      font-family: sans-serif;
+    }
+
+    .list:hover {
+      color: black;
+      background-image: repeating-linear-gradient(217deg, rgba(229, 0, 250, 0.8),
+                                  rgba(100, 255, 42, 0) 17%);
+    }
+  </style>
 </head>
 <body>
   <header class="transition">
@@ -13,10 +53,10 @@
   </header>
   <main>
     <p>
-      The other properties which are included in this shorthand property are : color,background-color, time, scale.
+      The other properties which are included in this shorthand property are : transition-property, transition-duration, transition-delay, transition-timing-function.
     </p>
     <p>
-      The delay control how an animation starts, the timing fuction define how tthe transition will run and duration defines how long will it take.
+      The delay controls how an animation starts, the timing fuction defines how the transition will run and duration defines how long will it take.
     </p>
     <p>The properties which are animatable using transitions</p>
     <ul class="list">
@@ -182,16 +222,19 @@
                  <li>zoom</li>
     </ul>
     <p>
-      Yes we can, by using shorthand property like this <q>transion: scale .1s</q>
+      Yes we can, by using transition shorthand property ,transition-property, all with keyword and transition-property which are separated by commas.
     </p>
     <p>
-      We define intial property in element's parent and then assing it in element which you to convert.
+      We can we set or define the desired transition state, using CSS : we use pseudo-element (hover,active,focus,target) , classes, any different sele
     </p>
     <p>
       Yes we do need transition in order to change the state smoothly.
     </p>
     <p>
-      It becomes when you animated properties which shoun't be because that causes trouble for the thing you want to build.
+      It becomes problem when you have a delay.
+    </p>
+    <p>
+      It is because transition doesn't work with key word.
     </p>
 
     <p>
