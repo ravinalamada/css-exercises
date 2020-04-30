@@ -8,10 +8,10 @@
 
 5- It't preferable to use transform rather than position because it is more accurant.
 
-6- I think we use pespective-origin.
+6- The element will be positioned wrongly because the property which is not overwritten won't apply.
 
-7- The property which is overwritten don't apply.
+7- I think we use pespective property.
 
-8- We can control what the transform uses in its calculations in terms of the box model by using perspective-
+8- We can control what the transform uses in its calculations in terms of the box model by using transform-box.
 
  */
