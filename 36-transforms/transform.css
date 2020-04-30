@@ -1,0 +1,17 @@
+/*
+1- The functions which we can use in transform are scale(), skew(), translte(), and rotate().
+
+2- We have to set separate function because if we don't do that we won't get the outcome which we want to reach.
+3- We need to separate the function when we set it in a specific selector.
+
+4- We use transform-origin property.
+
+5- It't preferable to use transform rather than position because it is more accurant.
+
+6- I think we use pespective-origin.
+
+7- The property which is overwritten don't apply.
+
+8- We can control what the transform uses in its calculations in terms of the box model by using perspective-
+
+ */
