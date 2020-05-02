@@ -52,7 +52,8 @@
   background-color: navy;
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
-  transform: translate(-6px, -10px)
+  transform: translate(-6px, -10px);
+
 }
 
 #luna {
@@ -73,8 +74,9 @@
 
 .scene:hover #solar-system {
   transform: translate(-50%, -50%) rotate(1turn);
-
+}
 .scene:hover #earth-system {
+  transform: translate(95px, -65px) rotate(12turn);
 
 }
 
