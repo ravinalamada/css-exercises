@@ -57,7 +57,8 @@
   background-color: navy;
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
-  transform: translate(-6px, -10px);
+  /* transform: translate(-6px, -10px); */
+  transform: translate(-50%, -50%);
 
 }
 
@@ -86,9 +87,9 @@
 }
 
 .scene:hover #earth {
-transform: translate(-6px, -10px) rotate(-12turn);
+transform: translate(-50%, -50%) rotate(-12turn);
 }
 
 .scene:hover #luna {
-transform: translate(55px, -5px) rotate(-12turn);
+transform: translateX(55px) rotate(-12turn);
 }
