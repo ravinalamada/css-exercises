@@ -11,7 +11,12 @@
   --transition-settings: transform var(--simulated-year) linear;
   --sphere-lighting: linear-gradient(90deg, rgba(var(--black-rgb), 0.01) 0%, rgba(var(--black-rgb), 0.01) 50%, rgba(var(--black-rgb), 0.5) 50%, rgba(var(--black-rgb), 0.5) 100%);
 }
-
+/*
+@keyframes solar-orbit {
+  0% {
+    transform
+  }
+}*/
 .sphere {
   border-radius: 50%;
 }
@@ -81,9 +86,9 @@
 }
 
 .scene:hover #earth {
-
+transform: translate(-6px, -10px) rotate(-12turn);
 }
 
 .scene:hover #luna {
-
+transform: translate(55px, -5px) rotate(-12turn);
 }
