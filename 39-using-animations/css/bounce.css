@@ -22,5 +22,32 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;;
+  background-repeat: no-repeat;
+  animation-name: ball;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes ball {
+  0% {
+    top: 0;
+    transform: scale(1);
+}
+50% {
+    top: 50%;
+    transform: scale(1);
+}
+90% {
+    top: 80%;
+    transform: scale(1);
+}
+98% {
+    transform: scale(0.2);
+    top: 88%;
+}
+100% {
+    top: 90%;
+    transform: scale(0.5, 0.1);
+}
 }
