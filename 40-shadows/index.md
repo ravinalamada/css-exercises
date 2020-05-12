@@ -13,12 +13,12 @@ Let's do some research on these shadows…
 
 1. If I wanted to create a hard-edge shadow, one that looks like a solid border, what combination of values would I need to use?
 
-=> You need (x, y, blur, thickness, color)
+=> You need (x, y, blury, thickness, color)
 
 1. Is it possible to create a shadow on a circular element? What about a polygon?
 
-=> Yes it is possible,
+=> Yes it is possible by only using border raduis.
 
 1. Is it possible to create multiple shadows on the same element?
 
-Yes, it is popssible by specifying their own values.
+=> Yes, it is popssible by specifying their own values.
