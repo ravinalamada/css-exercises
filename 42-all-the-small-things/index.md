@@ -8,19 +8,20 @@ So, let's go through as many of the more important but small properties here as 
 
 => It is used to specify the type of cursor that should be displayed to the user much better to use when you have image in submit buttom in form.
 
-- `pointer-events`=>
+- `pointer-events`=> if a developper set pointer-events with value none, the user then can't click anything. It is useful for hightline the content that is in focused.
 
 - `outline`=> It outlines the content of the element as border does, but it oversteps its boundary.
 => Syntax: outline-color, outline-style, outline-width.
 
-- `filter`=>
+- `filter`=>It is used to control a color of the content.
+
 - `appearance` => The -moz-appearance CSS property is used in Gecko (Firefox),
                => The -webkit-appearance property is used by WebKit-based (e.g., Safari) and Blink-based (e.g., Chrome, Opera) browsers to achieve the same thing. Note that Firefox and Edge also support -webkit-appearance, for compatibility reasons.
                => It is used : To apply platform specific styling to an element that doesn’t have it by default
                                To remove platform specific styling to an element that does have it by default.
                => Webkit and mozila have different values.
 
-- `object-fit`=> is used to define how the replaced contents fit in its container. It has value (fill, cover, contain, scale-down, none), indeed image and video.
+- `object-fit`=> is used to define how the replaced contents fit in its container. It has value (fill, cover, contain, scale-down, none), indeed image and video. It is useful when you want change the look of an informational image into decorational.
 
 - `scroll-snap-align` => It contains value (start, end, none, center)
 
@@ -29,7 +30,7 @@ There are many more! See [the official list of all CSS properties](https://www.w
 Similarly, there are a few pseudo-class selectors we should talk about:
 
 - `:focus` => It is triggered when you click the element which is focused but it only applies to that element itself.
-- `:focus-within` => It will apply to all of the elements which are part of the focuesd element. his is good to set in form container.
+- `:focus-within` => It will apply to all of the elements which are part of the focused element. his is good to set in form container.
 
 - `:visited`=> Allowable CSS properties are color, background-color, border-color, border-bottom-color, border-left-color, border-right-color, border-top-color, column-rule-color, outline-color, text-decoration-color, and text-emphasis-color.Allowable SVG attributes are fill and stroke. To way how we set it is LVHA (link, visited, hover, active)
 
@@ -38,13 +39,14 @@ Similarly, there are a few pseudo-class selectors we should talk about:
 - `:target`=> You can use the :target pseudo-class to create a lightbox without using any JavaScript. This technique relies on the ability of anchor links to point to elements that are initially hidden on the page. Once targeted, the CSS changes their display so that they are shown.
 
 - `:disabled`=> why should you use this property?
-- `:empty`
-- `:not()`
-- `:matches()`
+- `:empty`=> To style an empty element.
+- `:not()`=> It represent the element that doesn't match a list of a selector.
+
+- `:matches()`=> It represent the element that does match a list of a selector.
 
 And a pseudo-element:
 
-- `::first-letter`
+- `::first-letter` => used to style the first letter in a paragraph.
 
 Then, there's the mysterious block:
 
