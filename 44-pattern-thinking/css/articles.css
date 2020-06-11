@@ -6,6 +6,7 @@
 .example > article {
   font-weight: 700;
   text-align: center;
+  border: 1rem solid;
 }
 
 .example > article > * {
@@ -21,33 +22,43 @@
   padding: 1rem;
 }
 
-.example > article > header {
+.example > article > header:nth-of-type(1) {
   --article-elem-color: 63, 63, 191;
+  margin-block-end: 1rem;
 }
 
 .example > article > header > h2 {
   font-size: 1rem;
 }
 
-.example > article > .content {
+.example > article > .content:nth-of-type(1) {
   --article-elem-color: 63, 191, 63;
+  margin-block-end: 1rem;
 }
 
-.example > article > footer {
+.example > article > footer:nth-of-type(1) {
   --article-elem-color: 191, 63, 63;
+
 }
 
 /* 1 */
-[data-example="1"] {
+[data-example="1"] header,
+[data-example="1"] .content,
+[data-example="1"] footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
-
 /* 2 */
-[data-example="2"] {
 
+[data-example="2"] h2,
+[data-example="2"] p {
+  display: inline-block;
 }
 
 /* 3 */
-[data-example="3"] {
-
+[data-example="3"] h2,
+[data-example="3"] p {
+  display: inline-flex;
 }
