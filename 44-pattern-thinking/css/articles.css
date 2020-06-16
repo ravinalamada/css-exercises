@@ -36,8 +36,8 @@
 .example > article > footer {
   --article-elem-color: 191, 63, 63;
 }
-div div article{
-  border: solid 1rem;
+div div article {
+   border: solid 1rem;
 }
 .example {
   padding: 0;

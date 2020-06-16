@@ -39,6 +39,8 @@
 
 }
 [data-example="6"] .centred {
+  display: grid;
+  grid-template-columns: max-content;
 
 }
 [data-example="6"] p {
